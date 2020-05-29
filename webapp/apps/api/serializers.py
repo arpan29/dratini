@@ -1,8 +1,8 @@
 from rest_framework import serializers
 
 
-# class FoldersSerializer(serializers.ModelSerializer):
+# class MySerializer(serializers.ModelSerializer):
 
 #     class Meta:
-#         model = Folders
+#         model = MyModel
 #         exclude = ('is_deleted', 'modified_at', 'created_at')
