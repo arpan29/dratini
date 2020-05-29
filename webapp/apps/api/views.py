@@ -9,7 +9,6 @@ class MyView(APIView):
 
     def get(self, request):
         """
-        Get all folders of project with filters
         :param request:
         :return:
         """
