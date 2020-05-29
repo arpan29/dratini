@@ -1,11 +1,11 @@
 from rest_framework.views import APIView
 from mew.core.utils import APIResponse
 
-from api.services import mewTestService
+from api.services import MyService
 
 
 # Create your views here.
-class mewTest(APIView):
+class MyView(APIView):
 
     def get(self, request):
         """
@@ -13,5 +13,5 @@ class mewTest(APIView):
         :param request:
         :return:
         """
-        response = mewTestService().test_function(request)
+        response = MyService().test_function(request)
         return APIResponse.send(response)
