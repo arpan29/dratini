@@ -3,7 +3,7 @@ git+https://github.com/arpan29/mew
 psycopg2==2.8.4
 
 django-braces==1.13.0
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 django-filter==2.2.0
 
 requests==2.22.0
